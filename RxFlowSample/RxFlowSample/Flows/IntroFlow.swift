@@ -15,12 +15,6 @@ final class IntroFlow: Flow {
     private let rootViewController = IntroViewController()
     
     func navigate(to step: Step) -> FlowContributors {
-        guard let step = step as? AppStep else { return .none }
-        switch step {
-        case .testStep:
-            return .none
-        default:
-            return .none
-        }
+        return .none
     }
 }

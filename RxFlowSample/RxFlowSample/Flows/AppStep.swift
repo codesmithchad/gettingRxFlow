@@ -9,6 +9,5 @@ import RxFlow
 
 enum AppStep: Step {
     case appLaunched
-    case testStep
 }
 

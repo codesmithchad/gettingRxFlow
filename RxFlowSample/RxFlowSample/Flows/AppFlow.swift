@@ -26,8 +26,6 @@ final class AppFlow: Flow {
         switch step {
         case .appLaunched:
             return doesAppLaunched()
-        default:
-            return .none
         }
     }
     
